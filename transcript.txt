@@ -1,0 +1,43 @@
+============================================================
+ Flight Booking Agent - type 'exit' to quit
+============================================================
+
+You: Find me flights from Delhi to Mumbai on 2026-09-10
+
+Agent: I found 2 available flights from Delhi to Mumbai on 2026-09-10:
+1. Flight AI101: 06:00 to 08:15, Price: 4500 INR
+2. Flight UK303: 18:00 to 20:15, Price: 5200 INR
+
+You: What's the price and departure time for the second one?
+
+Agent: The second flight is Flight UK303.
+- Departure Time: 18:00
+- Price: 5200 INR
+
+You: Book it for 2 passengers, name Aditi Sharma
+
+Agent: I have checked the availability, and Flight UK303 has enough seats for 2 passengers. Before I proceed with the booking, please confirm the following details:
+
+- Flight ID: UK303
+- Route: Delhi to Mumbai
+- Date: 2026-09-10
+- Times: 18:00 to 20:15
+- Passengers: 2 (under the name Aditi Sharma)
+- Total Price: 10400 INR
+
+Do you confirm this booking? (Yes/No)
+
+You: Yes, confirm
+
+Agent: Booking confirmed! Reference: 9A2B4C6D. 
+Flight UK303 successfully booked for 2 passenger(s) under name 'Aditi Sharma'.
+
+You: Cancel that booking
+
+Agent: Booking 9A2B4C6D has been successfully cancelled. 2 seat(s) restored to flight UK303.
+
+You: Book me a flight from Delhi to a city that doesn't exist
+
+Agent: I searched for flights from Delhi to "a city that doesn't exist", but no available flights were found. Please provide a valid destination city to search for flights.
+
+You: exit
